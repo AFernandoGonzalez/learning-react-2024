@@ -1,8 +1,11 @@
-import React from 'react'
-
 const MyComponent = () => {
     return (
-        <div>Hello, I am a React component!</div>
+        <section>
+            <h2>My Component</h2>
+            <div>
+                Hello, I am a React component!
+            </div>
+        </section>
     )
 }
 

@@ -1,8 +1,17 @@
-# React + Vite
+# React Learning Project 2024
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project serves as a comprehensive guide for learning various React concepts. Each topic is organized into separate components with detailed explanations and code snippets.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Introduction to React Components
+2. State and Props in React
+3. Handling Events in React
+4. Conditional Rendering in React
+5. Lists and Keys in React
+6. Forms and Controlled Components
+7. React Lifecycle Methods
+8. React Router for Navigation
+9. Context API in React
+10. React Hooks: useEffect and useState
+

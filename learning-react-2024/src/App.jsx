@@ -8,7 +8,7 @@ import ControlledForm from './components/ControlledForm'
 import LifecycleExample from './components/LifecycleExample'
 import { Routes, Route, Link } from 'react-router-dom';
 import { ContextProvider } from './context/MyContext';
-import ComponentWithContext from './ComponentWithContext'
+import ComponentWithContext from './components/ComponentWithContext'
 import EffectExample from './components/EffectExample'
 
 const Home = () => <div>Home Page</div>;

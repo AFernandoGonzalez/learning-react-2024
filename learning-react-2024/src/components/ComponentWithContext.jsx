@@ -1,4 +1,4 @@
-import { useMyContext } from "./context/MyContext"
+import { useMyContext } from "../context/MyContext"
 
 const ComponentWithContext = () => {
     const sharedValue = useMyContext()

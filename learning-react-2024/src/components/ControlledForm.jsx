@@ -8,7 +8,7 @@ const ControlledForm = () => {
     };
 
     return (
-        <section>
+        <section className="container">
             <h2>Controlled Form</h2>
             <input
                 type="text"

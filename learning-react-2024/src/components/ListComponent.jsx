@@ -1,7 +1,7 @@
 
 const ListComponent = ({ items }) => {
     return (
-        <section>
+        <section className="container">
             <h2>List Component</h2>
             <ul>
                 {items.map((item) => (

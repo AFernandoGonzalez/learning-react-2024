@@ -5,7 +5,7 @@ const ButtonWithEvent = () => {
     };
 
     return (
-        <section>
+        <section className="container">
             <h2>Button With Event</h2>
             <button onClick={handleClick}>Click Event</button>
         </section>

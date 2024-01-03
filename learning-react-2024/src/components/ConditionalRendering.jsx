@@ -1,7 +1,7 @@
 
 const ConditionalRendering = ({ isLoggedIn }) => {
     return (
-        <section>
+        <section className="container">
             <h2>Conditional Rendering</h2>
             {isLoggedIn ? (
                 <p>You are logged in!</p>

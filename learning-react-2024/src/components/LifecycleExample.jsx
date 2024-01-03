@@ -16,7 +16,7 @@ const LifecycleExample = () => {
     };
 
     return (
-        <section>
+        <section className="container">
             <h2>Lifecycle Example</h2>
             <p>{data? data.title : "Loading"}</p>
             <button onClick={() => fetchRandom({})}>Randomize Title</button>

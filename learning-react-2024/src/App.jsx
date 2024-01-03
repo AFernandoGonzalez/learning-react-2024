@@ -10,9 +10,10 @@ import { Routes, Route, Link } from 'react-router-dom';
 import { ContextProvider } from './context/MyContext';
 import ComponentWithContext from './components/ComponentWithContext'
 import EffectExample from './components/EffectExample'
+import Navbar from './components/Navbar'
 
-const Home = () => <div>Home Page</div>;
-const About = () => <div>About Page</div>;
+const Home = () => <div className='container'>Home Page</div>;
+const About = () => <div className='container'>About Page</div>;
 
 const App = () => {
   const userLoggedIn = true;
@@ -23,7 +24,7 @@ const App = () => {
   ];
 
   return (
-    <div>
+    <main>
       <MyComponent />
       <Counter initialValue={0} />
       <ButtonWithEvent />
@@ -31,16 +32,7 @@ const App = () => {
       <ListComponent items={data} />
       <ControlledForm />
       <LifecycleExample />
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-        </ul>
-      </nav>
+      <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -49,7 +41,7 @@ const App = () => {
         <ComponentWithContext />
       </ContextProvider>
       <EffectExample />
-    </div>
+    </main>
   )
 }
 

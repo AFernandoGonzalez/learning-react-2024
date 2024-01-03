@@ -3,7 +3,7 @@ import { useMyContext } from "../context/MyContext"
 const ComponentWithContext = () => {
     const sharedValue = useMyContext()
     return (
-        <section>
+        <section className="container">
             <h2>Component with Context</h2>
             <div>
                 My Context Value: {sharedValue}

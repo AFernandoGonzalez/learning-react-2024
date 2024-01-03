@@ -21,33 +21,49 @@
 
 button {
   margin: 0.5em;
+  background-color: #1B4242;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 300ms;
+  outline: none;
+}
+button:hover {
+  background-color: #5C8374;
+  outline: none;
+  border: none;
 }
 
-section {
-  margin: 2em 0;
-  border: 1px solid #ccc;
+
+.container {
+  margin: 1rem 0;
+  padding: 1rem 0;
+  background-color: #94A684;
   width: 100%;
+  border-radius: 10px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
+
+input {
+  margin: 0.5em;
+  padding: 0.5em;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  outline: none;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
